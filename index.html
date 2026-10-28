@@ -1,22 +1,223 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Orb Scores Leaderboard</title>
-</head>
-<body>
-    <h1>Top Scores</h1>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stargazer Games</title>
 
-    <table border="1">
-        <tr>
-            <th>Rank</th>
-            <th>Player</th>
-            <th>Score</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>Trevor</td>
-            <td>125450</td>
-        </tr>
-    </table>
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Segoe UI, Arial, sans-serif;
+    background:#050816;
+    color:#ffffff;
+    line-height:1.6;
+}
+
+header{
+    text-align:center;
+    padding:40px 20px;
+    background:linear-gradient(to bottom,#091428,#050816);
+}
+
+.logo{
+    max-width:320px;
+    width:90%;
+}
+
+h1{
+    font-size:3rem;
+    margin-top:20px;
+}
+
+.tagline{
+    color:#8ecfff;
+    font-size:1.2rem;
+    margin-top:10px;
+}
+
+section{
+    max-width:1000px;
+    margin:auto;
+    padding:60px 20px;
+}
+
+.card{
+    background:#0d1327;
+    border:1px solid #1d2950;
+    border-radius:15px;
+    padding:30px;
+    margin-bottom:30px;
+}
+
+h2{
+    color:#6fb4ff;
+    margin-bottom:20px;
+}
+
+.skills{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:15px;
+}
+
+.skill{
+    background:#111933;
+    padding:15px;
+    border-radius:10px;
+    text-align:center;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    color:#8a8a8a;
+    border-top:1px solid #1d2950;
+}
+
+a{
+    color:#7dc6ff;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+    <img src="logo.png" alt="Stargazer Games Logo" class="logo">
+
+    <h1>Stargazer Games</h1>
+
+    <p class="tagline">
+        Creating immersive VR and multiplayer worlds from Western Australia
+    </p>
+
+</header>
+
+<section>
+
+    <div class="card">
+        <h2>About Stargazer Games</h2>
+
+        <p>
+            Stargazer Games is an independent game development studio based in
+            Perth, Western Australia. Focused on Virtual Reality, multiplayer
+            experiences, and innovative gameplay, the studio combines decades
+            of professional software development expertise with a passion for
+            interactive entertainment.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>About the Developer</h2>
+
+        <p>
+            Hi, I'm Trevor Gall, founder of Stargazer Games.
+        </p>
+
+        <br>
+
+        <p>
+            After a long career as a commercial software developer and IT
+            professional, I retired to pursue a lifelong passion for game
+            development. Today I create indie games using modern tools such
+            as Godot and Unreal Engine, with a particular interest in virtual
+            reality, multiplayer systems, immersive storytelling, and
+            innovative gameplay mechanics.
+        </p>
+
+        <br>
+
+        <p>
+            My background in enterprise software development brings a strong
+            engineering focus to game creation, combining robust technical
+            solutions with player-centric design.
+        </p>
+    </div>
+
+    <div class="card">
+
+        <h2>Areas of Focus</h2>
+
+        <div class="skills">
+
+            <div class="skill">Virtual Reality Games</div>
+
+            <div class="skill">Multiplayer Experiences</div>
+
+            <div class="skill">Godot Development</div>
+
+            <div class="skill">Unreal Engine</div>
+
+            <div class="skill">Game Design</div>
+
+            <div class="skill">Network Programming</div>
+
+            <div class="skill">World Building</div>
+
+            <div class="skill">3D Asset Integration</div>
+
+        </div>
+
+    </div>
+
+    <div class="card">
+
+        <h2>Current Projects</h2>
+
+        <p>
+            Stargazer Games is actively developing virtual reality experiences
+            for Meta Quest and PC VR platforms, with a focus on accessible,
+            engaging gameplay and social multiplayer interaction.
+        </p>
+
+        <br>
+
+        <p>
+            Current developments include VR arcade experiences, immersive
+            exploration games, and experimental multiplayer concepts built
+            using the Godot Engine.
+        </p>
+
+    </div>
+
+    <div class="card">
+
+        <h2>Contact</h2>
+
+        <p>
+            For enquiries, collaboration opportunities, or game feedback,
+            please contact:
+        </p>
+
+        <br>
+
+        <p>
+            <strong>Stargazer Games</strong><br>
+            Perth, Western Australia
+        </p>
+
+    </div>
+
+</section>
+
+<footer>
+
+    © 2026 Stargazer Games • Perth, Western Australia
+
+</footer>
+
 </body>
 </html>
